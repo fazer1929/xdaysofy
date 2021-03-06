@@ -3,6 +3,10 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 50px;
+}
+.form-group {
+	margin-bottom: 40px;
 }
 .xdaysofy-form > span {
 	font-size: 3rem;
@@ -38,4 +42,7 @@ input[type="number"] {
 .main-form {
 	padding: 30px;
 	border: 1px solid #333;
+}
+#timeContainer {
+	transition: all 0.5s;
 }
