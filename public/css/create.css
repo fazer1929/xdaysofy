@@ -1,0 +1,41 @@
+.xdaysofy-form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.xdaysofy-form > span {
+	font-size: 3rem;
+}
+.x,
+.y {
+	font-size: 3rem;
+	text-align: center;
+	margin: 10px;
+	height: max-content;
+}
+.x::placeholder,
+.y::placeholder {
+	font-size: 3rem;
+}
+.x {
+	width: 120px;
+}
+.y {
+	width: max-content;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+.main-form {
+	padding: 30px;
+	border: 1px solid #333;
+}

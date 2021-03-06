@@ -9,4 +9,9 @@ app.use(express.json());
 app.get("/", function (req, res) {
 	res.render("pages/home");
 });
+
+app.get("/create", function (req, res) {
+	res.render("pages/create");
+});
+
 app.listen(PORT, () => console.log(`Server Started at PORT ${PORT}`));
