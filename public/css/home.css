@@ -1,0 +1,53 @@
+body {
+	background-position: center;
+	background-image: url("/images/backround0.jpg");
+}
+.main {
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-container {
+	display: flex;
+	flex-direction: column;
+}
+.main-text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.text-x {
+	margin: 12px;
+	font-size: 12rem;
+	background: none;
+	transition: all 0.2s;
+	border: none;
+	font-weight: 800;
+	color: white;
+	font-family: "DotGothic16", sans-serif;
+	cursor: pointer;
+}
+.text-x:active {
+	outline: none;
+}
+.text-x:hover {
+	animation: spin 1s;
+	animation-fill-mode: forwards;
+}
+.text {
+	color: white;
+	letter-spacing: 1px;
+	font-size: 3rem;
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+		color: teal;
+	}
+}
